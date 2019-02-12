@@ -135,4 +135,4 @@ if (foundInText) {
 
 });
 
-bot.login(tokenfile.token);
+bot.login(process.env.token);
